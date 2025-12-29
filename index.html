@@ -6,16 +6,12 @@
     
     <title>Beleza Tech | Luxury Store</title>
     
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" href="https://i.postimg.cc/TP8XR9G1/1766974080256.png" type="image/png">
     
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     
     <style>
-        /* RESET GLOBAL (ESSENCIAL PARA NÃO VAZAR TELA) */
+        /* RESET GLOBAL */
         * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
 
         :root {
@@ -30,13 +26,13 @@
             --gray: #1c1c1e; --primary: #ffffff; --glass: rgba(10, 10, 10, 0.95);
         }
 
-        /* CORREÇÃO MOBILE: OVERFLOW HIDDEN IMPEDE ROLAGEM LATERAL */
+        /* CORREÇÃO MOBILE */
         body { 
             font-family: 'Plus Jakarta Sans', sans-serif; 
             margin: 0; padding: 0; 
             background-color: var(--bg); color: var(--text); 
             transition: background-color 0.4s, color 0.4s; 
-            overflow-x: hidden; /* O SEGREDO */
+            overflow-x: hidden; 
             width: 100%;
             display: flex; flex-direction: column; min-height: 100vh; 
         }
@@ -137,7 +133,7 @@
 
         /* AJUSTES FINAIS PARA CELULAR */
         @media (max-width: 480px) {
-            .btn-modern span { display: none; } /* Esconde texto Rastreio no mobile pra caber */
+            .btn-modern span { display: none; } 
             .btn-modern { padding: 10px; width: 42px; height: 42px; justify-content: center; border-radius: 50%; }
             .banner-slider { height: 250px; }
             .slide-content h2 { font-size: 1.6rem; }
